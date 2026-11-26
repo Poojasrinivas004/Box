@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>6 Grid Cards</title>
+
+    <style>
+        .container {
+            background-color: brown;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            border-radius: 250px 12px 250px 12px;
+        }
+
+        .grid {
+            background-color:lightcoral;
+            padding: 25px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 50px;
+        }
+
+        h2 {
+            color: darkblue;
+            font-weight: bold;
+            font-style: oblique;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">Our Services</h1>
+
+    <div class="container">
+
+        <div class="grid">
+            <h2>HTML</h2>
+            <p>HTML is used to create web pages.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="grid">
+            <h2>CSS</h2>
+            <p>CSS is used to style web pages.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="grid">
+            <h2>JavaScript</h2>
+            <p>JavaScript makes websites interactive.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="grid">
+            <h2>Python</h2>
+            <p>Python is a popular programming language.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="grid">
+            <h2>Java</h2>
+            <p>Java is used for application development.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="grid">
+            <h2>SQL</h2>
+            <p>SQL is used to manage databases.</p>
+            <button>Read More</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
